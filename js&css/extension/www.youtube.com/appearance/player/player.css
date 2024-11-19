@@ -626,3 +626,12 @@ html[data-page-type=video][it-hide-top-loading-bar=true] .ytp-load-progress,
 html[data-page-type=video][it-hide-top-loading-bar=true] .ytp-loading-bar {
     display: none !important;
 }
+
+
+/*--------------------------------------------------------------
+# HIDE Includes Paid Promotion
+--------------------------------------------------------------*/
+.ytp-paid-content-overlay,
+.ytp-paid-content-overlay-link {
+  display: none !important;
+}
