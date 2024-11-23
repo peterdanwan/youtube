@@ -7,6 +7,7 @@
 # Hide annotations
 # Hide endscreen
 # Hide cards
+# Hide "Includes Paid Promotion"
 # Show cards on mouse hover
 # Hide "Scroll for details"
 # Player Size
@@ -631,7 +632,7 @@ html[data-page-type=video][it-hide-top-loading-bar=true] .ytp-loading-bar {
 /*--------------------------------------------------------------
 # HIDE Includes Paid Promotion
 --------------------------------------------------------------*/
-.ytp-paid-content-overlay,
+html[data-page-type=video][it-hide-includes-paid-promotion=true] .ytp-paid-content-overlay,
 .ytp-paid-content-overlay-link {
   display: none !important;
 }
